@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: large ;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: black;
+    text-transform: uppercase
+}
+
+header {
+    padding: 16px 0;
+    color: #fff;
+    display: flex;
+    border-bottom: 16px solid  #323233;
+    justify-content: center;
+    text-transform: uppercase;
+}
+h1 {
+    font-size: larger;
+    text-align: center;
+}
+
+form {
+    padding: 24px 0;
+    text-align: center;
+    margin: auto;
+}
+form h2{
+    font-size: 18px;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+input {
+    width: 30%;
+    padding: 15px;
+    outline-color: white;   
+}
+button {
+    padding: 15px;
+    width: 7%;
+}
+
+
+.botao-concluida {
+    padding: 15px;
+    text-decoration: line-through;
+}
+
+
+
+
