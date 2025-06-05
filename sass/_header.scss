@@ -1,0 +1,34 @@
+header {
+background-color: #4de871;
+position: sticky;
+top: 0;
+left: 0;
+z-index: 10;
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0; // Diminui a altura do header
+}
+
+.branding img {
+    width: 100px; // Reduz a largura do logo
+    height: auto; // Mantém proporção
+}
+
+.menu {
+    display: flex;
+
+    li {
+    font-weight: bold;
+    margin-left: 24px;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    }
+}
+}
